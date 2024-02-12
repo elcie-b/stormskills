@@ -3,5 +3,8 @@ from django.http import HttpResponse
 
 # Create your views here.
 
-def tester(request):
-    return render(request, "testy.html/")
+def dashboard(request):
+    return render(request, "dashboard.html/")
+
+def log(request):
+    return render(request, "log.html/")
